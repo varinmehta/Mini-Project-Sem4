@@ -23,62 +23,8 @@
     filter: grayscale(75%);
 }
 
-/* Add your custom styles here */
-
-body {
-    background-color: #f8f9fa;
-    /* Light gray background color */
-    color: #343a40;
-    /* Dark text color */
-}
-
-.navbar {
-    background-color: black;
-    /* Navbar background color - Bootstrap primary color */
-}
-
-.navbar-brand img {
-    max-height: 40px;
-    /* Adjust the maximum height of the logo */
-}
-
-.navbar-nav .nav-link {
-    color: #343a40 !important;
-    /* Nav links color */
-}
-
-.main-content {
-    padding-top: 80px;
-    /* Adjust padding to make space for the fixed navbar */
-}
-
-/* Style the carousel indicators and controls */
-.carousel-indicators li {
-    background-color: #007bff;
-    /* Bootstrap primary color for active indicator */
-}
-
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: #007bff;
-    /* Bootstrap primary color for controls */
-}
-
-/* Set footer styles */
-footer {
-    background-color: #343a40;
-    /* Footer background color */
-    color: #ffffff;
-    /* Footer text color */
-    padding: 10px 0;
-}
-
-/* Set link styles in the references section */
-#references a {
-    color: #007bff;
-    /* Bootstrap primary color for links */
-}
-
-#references a:hover {
-    text-decoration: underline;
+    outline: none;
+    box-shadow: none;
 }
